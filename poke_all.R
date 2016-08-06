@@ -5,7 +5,8 @@ library(ggrepel)
 # http://www.pokemongodb.net/2016/07/average-pokemon-cp-gain-per-power-up.html
 # https://pokeassistant.com/main/pokemonstats
 # http://www.serebii.net/pokemongo/evolution.shtml
-setwd("/Users/kwalker/Downloads/Pokemon")
+setwd("/Users/kaylinwalker/R/pokemon_probability")
+
 poke <- read.csv("poke_all.csv", stringsAsFactors=F)
 poke$Rarity <- round(poke$Rarity/100,4)
 poke$Capture <- round(poke$Capture/100,4)
@@ -32,7 +33,7 @@ poke$Candy.Prob <- NA
 for(g in seq_along(poke[,1])){
      if(poke$Stage[g]>1){
           poke$Candy.Prob[g] <- candy[candy$Pokemon==poke$Family[g], 4]
-          poke$Evolve.Ease[g] <- poke$Candy.Prob[g]  ^ (poke$Candy.it.Took[g]/3)
+          poke$Evolve.Ease[g] <- poke$Catch.Ease * poke$Candy.Prob[g]  ^ ceiling(poke$Candy.it.Took[g]/4)
      }
 }
 
