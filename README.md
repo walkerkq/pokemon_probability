@@ -23,12 +23,12 @@ Data descriptions:
 19. Candy.to.Evolve: Number of candies necessary to evolve to the next stage  
 20. Catch.Ease: Probability of locating and catching this Pokemon  
 21. Candy.Prob: Probability of locating and securing a candy-bearing Pokémon
-22. p99c: Wild encounters needed to have 99% chance of catching
-23. p75c: Wild encounters needed to have 75% chance of catching
-24. p50c: Wild encounters needed to have 50% chance of catching
-25. p99e: Wild encounters needed to have 99% chance of evolving to
-26. p75e: Wild encounters needed to have 75% chance of evolving to
-27. p50e: Wild encounters needed to have 50% chance of evolving to
+22. p99c: Wild encounters needed to have 99% chance of catching  
+23. p75c: Wild encounters needed to have 75% chance of catching  
+24. p50c: Wild encounters needed to have 50% chance of catching  
+25. p99e: Wild encounters needed to have 99% chance of evolving to  
+26. p75e: Wild encounters needed to have 75% chance of evolving to  
+27. p50e: Wild encounters needed to have 50% chance of evolving to  
 
 
 Source for #5-6: [PokemonGOdb.net](http://www.pokemongodb.net/2016/07/average-pokemon-cp-gain-per-power-up.html)  
