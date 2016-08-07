@@ -1,5 +1,5 @@
 # pokemon_probability
-Blog post: [Don't Even Try to Evolve 'Em All](http://kaylinwalker.com/dont-even-try-to-evolve-em-all/)  
+Blog post: [Catch ‘Em or Evolve 'Em All?](http://kaylinwalker.com/catch-em-or-evolve-em-all/)  
   
 Data descriptions:  
 1. Pokemon: Pokemon name  
@@ -22,12 +22,16 @@ Data descriptions:
 18. Evolves.to: Pokemon this Pokemon evolves to  
 19. Candy.to.Evolve: Number of candies necessary to evolve to the next stage  
 20. Catch.Ease: Probability of locating and catching this Pokemon  
-21. Evolve.Ease: Probability of locating and catching enough of the first stage Pokemon to get to the second stage  
-22. Candy.Prob: Probability of locating and securing 3 candies  
-23. Double.Evolve.Ease: Probability of locating and catching enough of the first stage Pokemon to get to the third stage
-24. Final.Evolve.Ease: For two stage Pokemon, this is Evolve.Ease; for three stage Pokemon, this is Double.Evolve.Ease
+21. Candy.Prob: Probability of locating and securing a candy-bearing Pokémon
+22. p99c: Wild encounters needed to have 99% chance of catching
+23. p75c: Wild encounters needed to have 75% chance of catching
+24. p50c: Wild encounters needed to have 50% chance of catching
+25. p99e: Wild encounters needed to have 99% chance of evolving to
+26. p75e: Wild encounters needed to have 75% chance of evolving to
+27. p50e: Wild encounters needed to have 50% chance of evolving to
+
 
 Source for #5-6: [PokemonGOdb.net](http://www.pokemongodb.net/2016/07/average-pokemon-cp-gain-per-power-up.html)  
 Source for #13-19: [Serebii.net](http://www.serebii.net/pokemongo/evolution.shtml)  
 Source for #1-4, #7-12: [PokeAssistant.com](https://pokeassistant.com/main/pokemonstats)  
-For more details on calculating #20-24, [see my post.](http://kaylinwalker.com/dont-even-try-to-evolve-em-all/)
+For more details on calculating #20-27, [see my post.](http://kaylinwalker.com/catch-em-or-evolve-em-all/)
