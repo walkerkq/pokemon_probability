@@ -22,7 +22,7 @@ Data descriptions:
 18. Evolves.to: Pokemon this Pokemon evolves to  
 19. Candy.to.Evolve: Number of candies necessary to evolve to the next stage  
 20. Catch.Ease: Probability of locating and catching this Pokemon  
-21. Candy.Prob: Probability of locating and securing a candy-bearing Pokémon
+21. Candy.Prob: Probability of locating and securing a candy-bearing Pokémon  
 22. p99c: Wild encounters needed to have 99% chance of catching  
 23. p75c: Wild encounters needed to have 75% chance of catching  
 24. p50c: Wild encounters needed to have 50% chance of catching  
